@@ -31,11 +31,6 @@ After completing this project, you will:
 
 ---
 
-##  Project Structure
-
-Chatbot-Transformers/
-│── chatbot.py / chatbot.ipynb
-│── README.md
 
 ---
 
