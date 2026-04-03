@@ -40,14 +40,14 @@ This project uses a dataset from Kaggle. Possible datasets include:
 
 ---
 
-## ⚙️ Project Pipeline
+##  Project Pipeline
 ```
 Raw Data → Preprocessing → Tokenization → Model Training → Evaluation → Comparison
 ```
 
 ---
 
-## 🔄 Implementation Steps
+##  Implementation Steps
 
 ### 1. Data Preprocessing
 - Clean text (remove special characters, lowercasing, etc.)
@@ -82,14 +82,14 @@ Evaluate model using:
 
 ---
 
-## 🧪 Experiments
+##  Experiments
 - Freeze BERT layers and train only classifier
 - Fine-tune last 2 layers of BERT
 - Compare performance across experiments
 
 ---
 
-## 📊 Results
+##  Results
 - Performance metrics comparison
 - Confusion matrix visualization
 - Analysis of model improvements
@@ -97,7 +97,7 @@ Evaluate model using:
 
 
 
-## 📌 Key Takeaways
+##  Key Takeaways
 - BERT provides strong contextual understanding for NLP tasks
 - Fine-tuning significantly improves task-specific performance
 - Evaluation metrics beyond accuracy are essential
