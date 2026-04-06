@@ -1,6 +1,6 @@
-# 🧠 NLP Assignment 5 — POS Tagging & Chunking using Transformers
+#  NLP Assignment 5 — POS Tagging & Chunking using Transformers
 
-## 📌 Objective
+##  Objective
 The goal of this assignment is to build and evaluate transformer-based models for:
 
 - **Part-of-Speech (POS) Tagging**
@@ -10,7 +10,7 @@ Using modern NLP techniques, we explore how pretrained transformer models like *
 
 ---
 
-## 🎯 Learning Outcomes
+## Learning Outcomes
 After completing this assignment, you will be able to:
 
 - Understand **token classification tasks** in NLP
@@ -22,17 +22,17 @@ After completing this assignment, you will be able to:
 
 ---
 
-## 🛠️ Tools & Technologies
+##  Tools & Technologies
 
-- Python 🐍
-- Hugging Face Transformers 🤗
+- Python 
+- Hugging Face Transformers 
 - Datasets / NLTK Corpus
 - SeqEval (Evaluation Metrics)
 - PyTorch / TensorFlow
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 - **CoNLL-2000 Dataset** (via NLTK)
 - Contains annotated sentences for:
@@ -41,42 +41,42 @@ After completing this assignment, you will be able to:
 
 ---
 
-## ⚙️ Project Workflow
+##  Project Workflow
 
-### 1️⃣ Dataset Selection
+### 1️ Dataset Selection
 - Used **CoNLL-2000 dataset** from NLTK
 - Converted into Hugging Face-compatible format
 
-### 2️⃣ Data Preprocessing
+### 2️ Data Preprocessing
 - Tokenization using **DistilBERT tokenizer**
 - Handled **subword alignment**
 - Applied **-100 masking** for ignored tokens
 
-### 3️⃣ Model Setup
+### 3️ Model Setup
 - Model: `DistilBERT`
 - Task: `Token Classification`
 - Library: Hugging Face Transformers
 
-### 4️⃣ Training
+### 4️ Training
 - Trainer API used
 - Hyperparameters:
   - Epochs: 3
   - Learning Rate: 2e-5
 
-### 5️⃣ Evaluation
+### 5️ Evaluation
 - Metrics:
   - Precision
   - Recall
   - F1 Score
 - Library: `seqeval`
 
-### 6️⃣ Inference
+### 6️ Inference
 - Used `pipeline()` for predictions
 - Tested on custom sentences
 
 ---
 
-## 🔍 POS Tagging vs Chunking
+##  POS Tagging vs Chunking
 
 | Aspect | POS Tagging | Chunking |
 |---|---|---|
@@ -88,7 +88,7 @@ After completing this assignment, you will be able to:
 
 ---
 
-## 📊 Key Observations
+##  Key Observations
 
 - DistilBERT achieves **high accuracy with fewer parameters**
 - Chunking is harder due to **span-level evaluation**
